@@ -25,6 +25,7 @@ import (
 // @securityDefinitions.apikey ApiKeyAuth
 // @in header
 // @name Authorization
+// @description "Type 'Bearer TOKEN' to correctly set the API Key"
 
 func main() {
 	logrus.SetFormatter(new(logrus.JSONFormatter))
