@@ -87,7 +87,7 @@ info:
   title: Todo App API
   version: "1.0"
 paths:
-  /api/items/{id}:
+  /go-todo/api/items/{id}:
     delete:
       consumes:
       - application/json
@@ -211,7 +211,7 @@ paths:
       summary: Update todo item
       tags:
       - items
-  /api/lists:
+  /go-todo/api/lists:
     get:
       consumes:
       - application/json
@@ -285,7 +285,7 @@ paths:
       summary: Create todo list
       tags:
       - lists
-  /api/lists/{id}:
+  /go-todo/api/lists/{id}:
     delete:
       consumes:
       - application/json
@@ -409,7 +409,7 @@ paths:
       summary: Update todo list
       tags:
       - lists
-  /api/lists/{id}/items:
+  /go-todo/api/lists/{id}/items:
     get:
       consumes:
       - application/json
@@ -498,7 +498,7 @@ paths:
       summary: Create todo item
       tags:
       - items
-  /auth/sign-in:
+  /go-todo/auth/sign-in:
     post:
       consumes:
       - application/json
@@ -537,7 +537,7 @@ paths:
       summary: SignIn
       tags:
       - auth
-  /auth/sign-up:
+  /go-todo/auth/sign-up:
     post:
       consumes:
       - application/json

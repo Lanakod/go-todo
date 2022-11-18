@@ -9,7 +9,7 @@
     "host": "localhost:8080",
     "basePath": "/",
     "paths": {
-        "/api/items/{id}": {
+        "/go-todo/api/items/{id}": {
             "get": {
                 "security": [
                     {
@@ -200,7 +200,7 @@
                 }
             }
         },
-        "/api/lists": {
+        "/go-todo/api/lists": {
             "get": {
                 "security": [
                     {
@@ -315,7 +315,7 @@
                 }
             }
         },
-        "/api/lists/{id}": {
+        "/go-todo/api/lists/{id}": {
             "get": {
                 "security": [
                     {
@@ -506,7 +506,7 @@
                 }
             }
         },
-        "/api/lists/{id}/items": {
+        "/go-todo/api/lists/{id}/items": {
             "get": {
                 "security": [
                     {
@@ -643,7 +643,7 @@
                 }
             }
         },
-        "/auth/sign-in": {
+        "/go-todo/auth/sign-in": {
             "post": {
                 "description": "login",
                 "consumes": [
@@ -702,7 +702,7 @@
                 }
             }
         },
-        "/auth/sign-up": {
+        "/go-todo/auth/sign-up": {
             "post": {
                 "description": "create account",
                 "consumes": [

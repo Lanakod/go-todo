@@ -16,7 +16,7 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/api/items/{id}": {
+        "/go-todo/api/items/{id}": {
             "get": {
                 "security": [
                     {
@@ -207,7 +207,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/lists": {
+        "/go-todo/api/lists": {
             "get": {
                 "security": [
                     {
@@ -322,7 +322,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/lists/{id}": {
+        "/go-todo/api/lists/{id}": {
             "get": {
                 "security": [
                     {
@@ -513,7 +513,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/lists/{id}/items": {
+        "/go-todo/api/lists/{id}/items": {
             "get": {
                 "security": [
                     {
@@ -650,7 +650,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/auth/sign-in": {
+        "/go-todo/auth/sign-in": {
             "post": {
                 "description": "login",
                 "consumes": [
@@ -709,7 +709,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/auth/sign-up": {
+        "/go-todo/auth/sign-up": {
             "post": {
                 "description": "create account",
                 "consumes": [
